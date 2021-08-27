@@ -1,0 +1,4 @@
+com\training\program\config\WebMvcConfig.class
+com\training\program\config\SpringWebAppInitializer.class
+com\training\program\config\ApplicationContextConfig.class
+com\training\program\controller\MainController.class
