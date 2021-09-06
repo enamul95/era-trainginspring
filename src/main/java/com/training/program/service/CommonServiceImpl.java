@@ -26,6 +26,11 @@ public class CommonServiceImpl implements CommonService {
 	public List<EmployeeStaticData> getDesignation(ParameterDto parameterDto) {
 		return commonDao.getDesignation(parameterDto);
 	}
+
+	@Override
+	public void saveData(Object object) {
+		commonDao.saveData(object);
+	}
 //
 //	public List<EmployeeStaticData> getDesignation(ParameterDto parameterDto) {
 //		// TODO Auto-generated method stub return

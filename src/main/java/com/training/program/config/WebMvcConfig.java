@@ -16,12 +16,12 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
 
 
         // Css resource.
-		      registry.addResourceHandler("/styles/**") //
-			  .addResourceLocations("/WEB-INF/resources/css/").setCachePeriod(31556926);
+        registry.addResourceHandler("/styles/**") //
+                .addResourceLocations("/WEB-INF/resources/css/").setCachePeriod(31556926);
 
-			  // JS resource.
-			   registry.addResourceHandler("/scripts/**") //
-			  .addResourceLocations("/WEB-INF/resources/js/").setCachePeriod(31556926);
+        // JS resource.
+        registry.addResourceHandler("/scripts/**") //
+                .addResourceLocations("/WEB-INF/resources/js/").setCachePeriod(31556926);
 
 
     }
@@ -35,4 +35,5 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
 
 
 }
+
 

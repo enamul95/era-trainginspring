@@ -11,6 +11,8 @@ public interface CommonService {
 	List<EmployeeStaticData> getAllDept();
 
 	List<EmployeeStaticData> getDesignation(ParameterDto parameterDto);
+
+	void saveData(Object object);
 	
 	//List<EmployeeStaticData> getDesignation(ParameterDto parameterDto);
 	

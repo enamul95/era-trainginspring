@@ -129,7 +129,7 @@ function departmentChange(e) {
 				<tbody>
 					<tr>
 
-						<td>User Name</td>
+						<td>User ID</td>
 						<td><input type="text" name="empID"></td>
 					</tr>
 					<tr>
@@ -180,7 +180,7 @@ function departmentChange(e) {
 
 					<tr>
 						<td>Birth Date</td>
-						<td><input type="text" name="empBirthDate" value="01/01/1982"></td>
+						<td><input type="text" name="empBirthDate" value="01/01/2020"></td>
 					</tr>
 					
 					<tr>

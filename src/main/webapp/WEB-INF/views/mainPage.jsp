@@ -1,42 +1,23 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
 <body>
-
-
-<br><br>
-
- 
-
-  <p style="text-align: center;">  <a href="employeeForm" > Add Employee </a> <p>   
+  Login success
   
-  <p style="text-align: center;">  <a href="employeeFormImage" > Add Employee With Image </a> <p>   
   
-  <p style="text-align: center;">  <a href="employeeFormRelation" > Add Employee With Relation </a> <p>   
+   <a href="logout">Logout</a> <br>
    
-  <p style="text-align: center;"> <a href="viewEmployees" > View Employees </a> </p>   
-  
-  <p style="text-align: center;"> <a href="viewRelation" > View Relational Data </a> </p>   
-  
-   <p style="text-align: center;"> <a href="normalApi" > Normal API Calling </a> </p>   
-  
-  <p style="text-align: center;"> <a href=viewSessionData > View Session Data </a> </p>   
-  
-  <p style="text-align: center;"> <a href="viewAllDataPagination/1" > View Data with Pagination </a> </p>
-   
-  <p style="text-align: center;"> <a href="viewReportForm" > View Report Form </a> </p>
-  
-  <p style="text-align: center;"> <a href="callOracleFunction" > Call Oracle Function </a> </p>
-  
-   <p style="text-align: center;"> <a href="callOracleProcedure" > Call Oracle Procedure </a> </p>
+     <a href="logout">Employee Add</a> <br>
+     
+       <a href="logout">Employee View</a> <br>
    
    
- 
- 
+   
+   
 </body>
 </html>

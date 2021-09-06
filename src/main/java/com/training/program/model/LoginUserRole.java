@@ -11,12 +11,13 @@ import javax.persistence.Table;
 @Entity
 @Table(name="USER_ROLES")    // must be persistant entity in database
 public class LoginUserRole {
-	
-	
+
+	//@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="ROLE_ID")
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "role_id_seq")
-	@SequenceGenerator(name = "role_id_seq", sequenceName = "role_id_seq", allocationSize = 1, initialValue = 1)
+	//@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "role_id_seq")
+	//@SequenceGenerator(name = "role_id_seq", sequenceName = "role_id_seq", allocationSize = 1, initialValue = 1)
 	private Integer roleId;
 	
 	@Column(name="USERNAME")

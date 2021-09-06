@@ -10,6 +10,7 @@ public interface CommonDao {
 	List<EmployeeStaticData> getAllDept();
 
 	List<EmployeeStaticData> getDesignation(ParameterDto parameterDto);
+	void saveData(Object object);
 //
 //	List<EmployeeStaticData> getDesignation(ParameterDto parameterDto);
 //

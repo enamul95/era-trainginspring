@@ -17,12 +17,15 @@ import org.springframework.format.annotation.DateTimeFormat;
 @Entity
 @Table(name="USER_INFO")    // must be persistant entity in database
 public class LoginUserInfo {
+
+	//@GeneratedValue(strategy = GenerationType.IDENTITY)
 	
 	
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="INFO_ID")
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "info_id_seq")
-	@SequenceGenerator(name = "info_id_seq", sequenceName = "info_id_seq", allocationSize = 1, initialValue = 1)
+	//@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "info_id_seq")
+//	@SequenceGenerator(name = "info_id_seq", sequenceName = "info_id_seq", allocationSize = 1, initialValue = 1)
 	private Integer infoId;
 	
 	@Column(name="USERNAME")

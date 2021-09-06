@@ -72,9 +72,10 @@ public class ApplicationContextConfig {
         sessionBuilder.scanPackages("com.training.program.model");
         sessionBuilder.setProperty("hibernate.show_sql", "true");
         //sessionBuilder.setProperty("hibernate.dialect", "org.hibernate.dialect.OracleDialect");
-        sessionBuilder.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
+        //sessionBuilder.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
+        sessionBuilder.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5InnoDBDialect");
 
-        sessionBuilder.setProperty("hibernate.hbm2ddl.auto", "create");
+        sessionBuilder.setProperty("hibernate.hbm2ddl.auto", "update");
 
         return sessionBuilder.buildSessionFactory();
     }

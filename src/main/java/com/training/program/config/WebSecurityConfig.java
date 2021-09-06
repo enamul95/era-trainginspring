@@ -30,7 +30,7 @@ public class WebSecurityConfig  extends WebSecurityConfigurerAdapter {
 		  .roles("USER");
 		  auth.inMemoryAuthentication().withUser("admin1").password("12345")
 		  .roles("USER, ADMIN");
-		  auth.inMemoryAuthentication().withUser("momin").password("12345")
+		  auth.inMemoryAuthentication().withUser("enamul").password("123456")
 		  .roles("ADMIN");
 		 
 		 

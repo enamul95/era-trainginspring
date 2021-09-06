@@ -69,13 +69,13 @@
 					<tr>
 
 						<td>UserName</td>
-						<td><input type="text" name="username" value="mumit"></td>
+						<td><input type="text" name="username"></td>
 					</tr>
 
 					<tr>
 
 						<td>Password</td>
-						<td><input type="password" name="password" value="12345"></td>
+						<td><input type="password" name="password"></td>
 					</tr>
 
 					<tr>
